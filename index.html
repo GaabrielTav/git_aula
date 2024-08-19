@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProfile</title>
+</head>
+<body>
+
+    <section>
+        <form>
+            <div>
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Digite..." required >
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Digite..." required >
+            </div>
+            <br>
+            <div>
+                <label for="motiva">O que te motivou participar do evento?</label><div>
+               <textarea name="motiva" id="motiva" placeholder="Descreva aqui..." cols="35" rows="6" required></textarea>
+            </div>
+            <br>
+            </div>
+            <div>
+                <label for="modulo">Selecione seu módulo</label><br>
+                <select name="modulo" id="modulo" required="true">
+                    <option value="">Selecione</option>
+                    <option value="modulo">Front-end</option>
+                    <option value="modulo">Back-end</option>
+                </select>
+            </div>
+            <br>
+            <div>   
+                <label for="senha">Cadastre una Senha</label> <br>
+                <input type="password" name="senha" id="senha" placeholder="Digite lá senha..." required ><br>
+<br>
+                <label for="senhac">Confirme la Senha</label><br>
+                <input type="password" name="senhac" id="senhac" placeholder="Repita lá senha..." required><br>
+            </div>
+<br>
+            <div>
+                <p>Deseja receber las notificaciones en tu email???</p>
+                <label for="sim">Sim</label>
+                <input type="radio" id="sim" name="opsione" value="sim">
+
+                <label for="no">No</label>
+                <input type="radio" id="no" name="opsione" value="no">
+            </div>
+ <br>
+            <div>
+                 <button type="submit">Cadastrar</button>
+            </div>
+            
+
+        </form>
+    </section>
+</body>
+</html>
